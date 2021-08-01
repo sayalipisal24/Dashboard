@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+.navbar{
+    margin:12px 60px;
+    display: inline-block;
+    width: 80%;
+    }
+
+ul{
+    list-style: none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+        }
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    margin:12px 14px;
+}
+a:hover{
+    text-decoration:underline;
+    color:rgb(246, 225, 101);
+    font-size: 28px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+   
+}
+
